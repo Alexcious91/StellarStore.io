@@ -7,9 +7,31 @@ body {
     src: url(../assets/Raleway/static/Raleway-Light.ttf);
 }
 
+@font-face {
+    font-family: Raleway-bold;
+    src: url(/assets/Raleway/static/Raleway-SemiBold.ttf);
+}
+
 
 ul > li {
     list-style-type: none;
+}
+
+.navbar-container {
+    position: fixed;
+    width: 100%;
+    margin: 0;
+}
+
+.nav-link:hover {
+    color: #a0a5a3;
+}
+
+.nav-link .badge {
+    top: -12px;
+    left: -8px;
+    color: black;
+    position: relative;
 }
 
 .heading-container {
@@ -22,5 +44,39 @@ ul > li {
 }
 
 .main-slider-content {
-    width: 700px;
+    width: 60%;
+    padding-top: 150px;
+    padding-left: 50px;
+}
+
+.main-slider-content h1 {
+    font-family: Raleway-bold;
+    font-size: 80px;
+}
+
+.main-slider-content .btn {
+    border: 0;
+    padding: 14px;
+    transition: 0.5s;
+    background: #a0a5a3;
+    font-family: Raleway-Bold;
+
+}
+
+.main-slider-content .btn:hover {
+    background: #ccc;
+    /* border: 1px solid; */
+}
+
+.banner-category {
+    border: 1px solid;
+    padding: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 265px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
