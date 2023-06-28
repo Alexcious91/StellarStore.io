@@ -1,8 +1,13 @@
-@font-face {
-    font-family: Raleway-light;
-    src: url(/assets/Raleway\ Font/);
-}
-
 body {
     font-family: Raleway-light;
+}
+
+@font-face {
+    font-family: Raleway-light;
+    src: url(../assets/Raleway/static/Raleway-Light.ttf);
+}
+
+
+ul > li {
+    list-style-type: none;
 }
