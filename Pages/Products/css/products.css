@@ -16,3 +16,25 @@ body {
 ul > li {
     list-style-type: none;
 }
+
+.navbar-container {
+    position: fixed;
+    width: 100%;
+    margin: 0;
+}
+
+.nav-link:hover {
+    color: #a0a5a3;
+}
+
+.nav-link.active {
+    border-bottom: 2px solid #a3a2a2;
+
+}
+
+.nav-link .badge {
+    top: -12px;
+    left: -8px;
+    color: black;
+    position: relative;
+}

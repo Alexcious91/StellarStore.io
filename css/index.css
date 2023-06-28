@@ -27,6 +27,10 @@ ul > li {
     color: #a0a5a3;
 }
 
+.nav-link.active {
+    border-bottom: 2px solid #a3a2a2;
+}
+
 .nav-link .badge {
     top: -12px;
     left: -8px;
