@@ -68,19 +68,6 @@ ul > li {
     /* border: 1px solid; */
 }
 
-.banner-category {
-    border: 1px solid;
-    padding: 15rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 265px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-}
-
 @media (max-width: 1160px){
     .heading-container {
         width: 100%;
@@ -98,19 +85,6 @@ ul > li {
     
     .main-slider-content .btn {
         font-size: 14px;
-    }
-    
-    .banner-category {
-        border: 1px solid;
-        padding: 15rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: 265px;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
     }
 }
 
