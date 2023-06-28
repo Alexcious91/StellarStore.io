@@ -38,3 +38,13 @@ ul > li {
     color: black;
     position: relative;
 }
+
+.breadcrumb {
+    padding-top: 120px;
+    font-size: 14px;
+}
+
+.breadcrumb-item {
+    text-decoration: none;
+    color: black;
+}
