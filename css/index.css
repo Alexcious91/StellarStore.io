@@ -60,12 +60,15 @@ ul > li {
     transition: 0.5s;
     background: #a0a5a3;
     font-family: Raleway-Bold;
-
 }
 
 .main-slider-content .btn:hover {
     background: #ccc;
-    /* border: 1px solid; */
+}
+
+.card-footer .btn {
+    font-size: 12px;
+    border: 1px solid #afadad;
 }
 
 @media (max-width: 1160px){
