@@ -18,9 +18,13 @@ ul > li {
 }
 
 .navbar-container {
-    position: fixed;
+    position: absolute;
     width: 100%;
     margin: 0;
+}
+
+.navbar-menu {
+    display: flex;
 }
 
 .nav-link:hover {
@@ -75,6 +79,32 @@ ul > li {
     border: 1px solid #afadad;
 }
 
+.card-footer .btn:hover {
+    background: #ccc;
+    color: black;
+}
+
+.newsletter {
+    color: white;
+}
+
+.newsletter .content {
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.btn_check {
+    padding: 4px 8px;
+    background: #a0a5a3;
+}
+
+.btn_check:hover {
+    background: #ccc;
+}
+
 @media (max-width: 1160px){
     .heading-container {
         width: 100%;
@@ -95,10 +125,87 @@ ul > li {
     }
 }
 
-@media (min-width: 768px) { 
+@media (max-width: 768px) { 
+    .logo-container h4 {
+        font-size: 18px;
+    }
+    .navbar-menu {
+        display: none;
+    }
 
+    .navbar-menu li {
+        font-size: 14px;
+    }
+
+    .heading-container {
+        width: 100%;
+        height: 557px;
+    }
+
+    .container .card.shadow {
+        margin-bottom: 20px;
+    }
+    
+    .main-slider-content {
+        width: 50%;
+    }
+    
+    .main-slider-content h1 {
+        font-family: Raleway-bold;
+        font-size: 40px;
+    }
+    
+    .main-slider-content .btn {
+        font-size: 14px;
+    }
 }
 
-@media (min-width: 576px) {
+@media (max-width: 576px) {
+    .logo-container h4 {
+        font-size: 18px;
+    }
 
+    .navbar-links-mobile {
+        display: none;
+    }
+
+    .container .card.shadow {
+        margin-bottom: 20px;
+    }
+
+    .navbar-menu {
+        display: none;
+    }
+
+    .navbar-menu li {
+        font-size: 14px;
+    }
+
+    .heading-container {
+        width: 100%;
+        height: 465px;
+    }
+    
+    .main-slider-content {
+        width: 50%;
+    }
+    
+    .main-slider-content h1 {
+        font-family: Raleway-bold;
+        font-size: 28px;
+    }
+    
+    .main-slider-content .btn {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 460px) {
+    .navbar-links-mobile {
+        display: none;
+    }
+
+    .container .card.shadow {
+        margin-bottom: 20px;
+    }
 }

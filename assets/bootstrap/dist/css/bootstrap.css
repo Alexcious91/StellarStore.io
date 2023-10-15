@@ -74,7 +74,7 @@
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
-  --bs-body-font-family: var(--bs-font-sans-serif);
+  --bs-body-font-family: Raleway-light;
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
@@ -285,6 +285,10 @@ address {
 ol,
 ul {
   padding-left: 2rem;
+}
+
+ul > li {
+  list-style-type: none;
 }
 
 ol,
@@ -3830,6 +3834,14 @@ textarea.form-control-lg {
   border: 0;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
+
+.nav-link .badge {
+  top: -12px;
+  left: -8px;
+  color: black;
+  position: relative;
+}
+
 @media (prefers-reduced-motion: reduce) {
   .nav-link {
     transition: none;
@@ -8179,13 +8191,13 @@ textarea.form-control-lg {
 }
 
 .py-0 {
-  padding-top: 0 !important;
-  padding-bottom: 0 !important;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .py-1 {
-  padding-top: 0.25rem !important;
-  padding-bottom: 0.25rem !important;
+  padding-top: 0.25rem ;
+  padding-bottom: 0.25rem ;
 }
 
 .py-2 {
@@ -8194,18 +8206,18 @@ textarea.form-control-lg {
 }
 
 .py-3 {
-  padding-top: 1rem !important;
-  padding-bottom: 1rem !important;
+  padding-top: 1rem ;
+  padding-bottom: 1rem ;
 }
 
 .py-4 {
-  padding-top: 1.5rem !important;
-  padding-bottom: 1.5rem !important;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .py-5 {
-  padding-top: 3rem !important;
-  padding-bottom: 3rem !important;
+  padding-top: 3rem;
+  padding-bottom: 3rem ;
 }
 
 .pt-0 {
@@ -12066,6 +12078,19 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+
+@font-face {
+  font-family: Raleway-light;
+  src: url(/assets/Raleway/static/Raleway-Light.ttf);
+}
+
+.nav-item a {
+  font-size: 14.5px;
+}
+
+.navbar-brand h4 {
+  font-size: 16px;
 }
 
 /*# sourceMappingURL=bootstrap.css.map */
